@@ -1,4 +1,3 @@
-console.log("hi");
 import express, { Request, Response } from 'express';
 const app = express();
 const port = 3000;
@@ -48,4 +47,3 @@ app.get('/orders', (req: Request, res: Response) => {
     // Logika untuk mendapatkan semua order
     res.send('List of orders');
 });
-
